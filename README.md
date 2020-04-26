@@ -11,7 +11,7 @@ Different types of exercises to improve your skills on python
 Use the github API: 
 https://api.github.com/users/{username}
 
-1. Create a function `parse_github (username)` in `exercise/exercice1.py` which takes as a parameter a `username` to provide to the Github API
+1. Create a function `parse_github (username)` in [exercise/exercice1.py](exercise/exercice1.py) which takes as a parameter a `username` to provide to the Github API
 2. This function must call the Github API and retrieve the JSON content
 3. The function returns two elements in a list: 
     * As a first index (`[0]`) the "node_id" 
