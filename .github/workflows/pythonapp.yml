@@ -23,7 +23,7 @@ jobs:
         python-version: 3.8
 
     - name: Automatic requirement.txt for Python Projects
-    - uses: ryan-rozario/pipreqs-action@v1.0.1
+      uses: ryan-rozario/pipreqs-action@v1.0.1
         
     - name: Install dependencies
       run: |
