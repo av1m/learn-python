@@ -45,6 +45,9 @@ The API must return a dict :
 * owner.avatar_url
 * forks (number of forks)
 
+Use lambda (if you need) and inline loop
+You can also use ternary operator!!
+
 > Example
 > GET https://api.github.com/users/av1m/repos 
 > ```json
@@ -72,6 +75,8 @@ This function must create an html file with:
 </body>
 </html>
 ```
+
+You can use inline function
 
 The goal is to recover all the images from the `url` site, then create an export.html file
 No unit test for this exercise :(
