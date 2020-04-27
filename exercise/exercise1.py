@@ -1,3 +1,5 @@
+import json
+import requests
 
 
 def parse_github(username):
@@ -10,4 +12,5 @@ def parse_github(username):
     :param username: corresponds to the username Github
     :return list: index 0 is node_id, index 1 is id, index 2 is name
     """
-    pass
+    data = json.loads(requests.get("https://api.github.com/users/"+username).content)
+    return [data["node_id"], data["id"], data["name"]]
