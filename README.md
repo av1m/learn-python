@@ -4,7 +4,8 @@ Different types of exercises to improve your skills on python
 ## Global note
 
 * You may need additional module, install them with `pip`
-* Pour lancer un test sur un exercice : `python -m unittest tests/exercise{number}.py` where {number} corresponds to the exercise number 
+* To launch a test on an exercise : `python3 -m unittest tests/exercise{number}.py` where {number} corresponds to the exercise number
+* To test all : `bash test.sh` 
 
 ## exercise 1 
 
@@ -26,5 +27,5 @@ https://api.github.com/users/{username}
 To test your code:
 
 ```bash
-python -m unittest tests/exercise1.py
+python3 -m unittest tests/exercise1.py
 ```
