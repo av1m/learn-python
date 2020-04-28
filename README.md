@@ -60,7 +60,13 @@ You can also use ternary operator!!
 > }
 > ```
 
-## Exercise 3
+To test your code:
+
+```bash
+python3 -m unittest tests/exercise2.py
+```
+
+## BONUS
 
 Create a `crawl(url)` function that takes a URL parameter
 This function must create an html file with: 
