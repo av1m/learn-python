@@ -66,6 +66,49 @@ To test your code:
 python3 -m unittest tests/exercise2.py
 ```
 
+## Exercise 3
+
+This exercise deals with ternary operations
+
+* Write an `is_even(number)` function which returns `True` if the number is even is `False` otherwise
+    * The function must raise an error of type `TypeError` if the `number` isn't number type
+* Write a function `which_case(param)` which returns:
+    * `TypeError` if `param` isn't a string or if param is a string containing only numbers
+    * 2 if the first and the last letter are in capital letters
+    * 1 if the first letter is in capital letters
+    * -1 if the last letter is in capital letters
+    * 0 if the first and last letters are in lowercase
+
+> All these functions must be written using ternary operators 
+ 
+To test your code:
+
+```bash
+python3 -m unittest tests/exercise3.py
+```
+
+## Exercise4 
+
+This exercise deals with inline loop
+
+* Write a function `long_words (number, mylist)` which returns all the elements which have the size `number` (cant be string)
+
+    Exemple 
+    ```python
+    long_words(3, ['hey', 'how', 'test', 'my best']) # {"3": ["hey", "how", "test"]}
+    long_words(4, ['hey', 'how', 'test', 'my best']) # {}
+    long_words(4, ['hey', 'how', 'test', 'ok', 'my best']) # {"2": ["ok"]} 
+    ``` 
+    
+    * This function should return a `ValueError` error if `mylist` is not a list
+    * This function should return a `TypeError` error if `number` is not a convertible to number (if it's "33", we don't throw an error)
+
+To test your code:
+
+```bash
+python3 -m unittest tests/exercise4.py
+```
+
 ## BONUS
 
 Create a `crawl(url)` function that takes a URL parameter
